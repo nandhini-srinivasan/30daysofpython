@@ -37,19 +37,17 @@ Write a program that prints `"Hello, World!"` followed by your name.
 ### 3️⃣ Set Up Python in VS Code
 - Installed **Python extension** by Microsoft in VS Code
 
------------
+---
  OTHER LEARNINGS:
 
 🔸 What is an IDE?
-An IDE (Integrated Development Environment) provides:
-
-Code editor
-Debugger
-Syntax highlighting
-Auto-completion
-Terminal/console
-File explorer
-Package management
+An IDE (Integrated Development Environment) provides:-Code editor
+-Debugger
+-Syntax highlighting
+-Auto-completion
+-Terminal/console
+-File explorer
+-Package management
 
 🔸 Popular Python IDEs
 VS Code
@@ -58,25 +56,16 @@ Jupyter Notebook
 Thonny
 
 🔸 Can You Code Python Without an IDE?
-Yes! Python includes IDLE, a basic editor.
-But for features like extensions, suggestions & project structure, VS Code is a better choice.
+Yes! Python includes IDLE, a basic editor.  But for features like extensions, suggestions & project structure, VS Code is a better choice.
 
-🔸 Python Syntax Basics
-# Print a message
-print("Hello, world!")
-
-# Variable examples
-x = 10
-name = "Alice"
+🔸 Python Syntax Basics # Print a message
+      print("Hello, world!")
+🔸 # Variable examples   x = 10   name = "Alice"
 
 
-🔸 Writing Comments in Python
-# This is a single-line comment
-
-"""
-This is a multi-line comment
-used to explain complex logic
-"""
+🔸 Writing Comments in Python # This is a single-line comment
+---This is a multi-line comment
+used to explain complex logic---
 
 ----------
 
