@@ -37,18 +37,7 @@ Write a program that prints `"Hello, World!"` followed by your name.
 ### 3️⃣ Set Up Python in VS Code
 - Installed **Python extension** by Microsoft in VS Code
 
-### 4️⃣ First Program: `hello.py`
-
-```python
-print("Hello, World!\nI'm Nandhu!")
-
-OUTPUT:
-
-Hello, World!
-I'm Nandhu 
-
----
-
+-----------
  OTHER LEARNINGS:
 
 🔸 What is an IDE?
@@ -88,3 +77,19 @@ name = "Alice"
 This is a multi-line comment
 used to explain complex logic
 """
+
+----------
+
+### 4️⃣ First Program: `hello.py`
+
+```python
+print("Hello, World!\nI'm Nandhu!")
+
+OUTPUT:
+Hello, World!
+I'm Nandhu 
+
+---------
+
+
+
