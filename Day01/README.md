@@ -49,23 +49,28 @@ An IDE (Integrated Development Environment) provides:-Code editor
 -File explorer
 -Package management
 
-🔸 Popular Python IDEs
+
+🔸 Popular Python IDEs:- 
 VS Code
 PyCharm
 Jupyter Notebook
 Thonny
 
-🔸 Can You Code Python Without an IDE?
-Yes! Python includes IDLE, a basic editor.  But for features like extensions, suggestions & project structure, VS Code is a better choice.
+
+🔸 Can You Code Python Without an IDE?  
+  Yes! Python includes IDLE, a basic editor.  But for features like extensions, suggestions & project structure, VS Code is a better choice.
+
 
 🔸 Python Syntax Basics # Print a message
       print("Hello, world!")
+
+      
 🔸 # Variable examples   x = 10   name = "Alice"
 
 
-🔸 Writing Comments in Python # This is a single-line comment
----This is a multi-line comment
-used to explain complex logic---
+🔸 Writing Comments in Python     # This is a single-line comment
+--This is a multi-line comment
+used to explain complex logic--
 
 ----------
 
