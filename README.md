@@ -1,2 +1,6 @@
 # 30daysofpython
-documenting 30 day python learning challenge with Indian Data Club
+Documenting 30 day python learning challenge with Indian Data Club
+
+## 📅 Progress
+
+- ✅ [Day 01 - Hello World](./Day01/README.md)
