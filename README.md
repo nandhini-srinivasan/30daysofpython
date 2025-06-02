@@ -5,4 +5,4 @@ Documenting 30 day python learning challenge with Indian Data Club
 
 - ✅ [Day 01 - Hello World](./Day01)
 - ✅ [Day 02 - Variables and Data Types](./Day02)
-✅ [Day 03 - Lists, Tuples, and Dictionaries](./Day03)
+- ✅ [Day 03 - Lists, Tuples, and Dictionaries](./Day03)
