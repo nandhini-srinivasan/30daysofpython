@@ -2,9 +2,19 @@
 
 **Date:** May 31, 2025
 
-🎯 \*\*Challenge \*\*- Check if a user-entered number is prime
+🎯 **Challenge** - Check if a user-entered number is prime
 
-## 1. If-Else Statements
+---
+
+## 🧠 What are Control Structures?
+
+Control structures are blocks that decide the **flow of a program** — they help us make decisions and repeat actions.
+
+---
+
+## 1. 🧪 If-Else Statements
+
+Used to **make decisions** based on conditions.
 
 ### 🔹 Basic Syntax:
 
@@ -37,8 +47,6 @@ else:
     print("You are not eligible to vote.")
 ```
 
-**Output:** `You are eligible to vote!`
-
 ### ✅ Example 2: Grading System
 
 ```python
@@ -53,17 +61,15 @@ else:
     print("Grade D")
 ```
 
-**Output:** `Grade B`
-
 ---
 
-## 2. Loops in Python
+## 2. 🔁 Loops in Python
 
-Loops repeat a block of code multiple times.
+Loops help us **repeat a block of code**.
 
 ### 🔸 For Loop
 
-Used to iterate over a sequence (like list, string, etc.)
+Used to iterate over a **sequence** (like list, string, etc.)
 
 #### ✅ Example 1: Loop Through a List
 
@@ -73,14 +79,6 @@ for fruit in fruits:
     print(fruit)
 ```
 
-**Output:**
-
-```
-apple
-banana
-cherry
-```
-
 #### ✅ Example 2: Using range()
 
 ```python
@@ -88,19 +86,9 @@ for i in range(1, 6):
     print(i)
 ```
 
-**Output:**
-
-```
-1
-2
-3
-4
-5
-```
-
 ### 🔸 While Loop
 
-Repeats as long as a condition is True.
+Repeats as long as a condition is `True`
 
 #### ✅ Example:
 
@@ -111,19 +99,9 @@ while count <= 5:
     count += 1
 ```
 
-**Output:**
-
-```
-Count is: 1
-Count is: 2
-Count is: 3
-Count is: 4
-Count is: 5
-```
-
 ### 🔸 else with Loops
 
-Python allows `else` with loops — runs only if loop doesn't hit a `break`.
+The `else` block runs **only if loop ends without break**. Good for **prime number checks**!
 
 #### ✅ Prime Check Example:
 
@@ -138,9 +116,11 @@ else:
 
 ---
 
-## Nested Loops
+## 🔂 Nested Loops
 
-Loops inside loops — useful for grids, patterns, matrix operations.
+Loop **inside another loop**.
+
+* Useful for **grids**, **tables**, and **patterns**
 
 ### ✅ Example: Print a 3x3 Grid
 
@@ -150,25 +130,11 @@ for i in range(1, 4):
         print(i, j)
 ```
 
-**Output:**
-
-```
-1 1
-1 2
-1 3
-2 1
-2 2
-2 3
-3 1
-3 2
-3 3
-```
-
 ---
 
 ## ⚠️ Infinite Loop
 
-Use only when you plan to `break` manually.
+Use `while True` when you want a loop to run **forever** (until `break` is used).
 
 ```python
 while True:
@@ -177,11 +143,11 @@ while True:
 
 ---
 
-## 3. break and continue
+## 3. ⛔ break and continue
 
-### 🔸 `break` — Exits the loop immediately
+### 🔸 `break`: Exit the loop immediately
 
-### 🔸 `continue` — Skips current iteration, moves to next
+### 🔸 `continue`: Skip current iteration and go to next
 
 ### ✅ Example 1: Using break
 
@@ -192,16 +158,7 @@ for i in range(1, 10):
     print(i)
 ```
 
-**Output:**
-
-```
-1
-2
-3
-4
-```
-
-#### 🍬 Candy Example:
+#### 🍬 Candy Stock Example:
 
 ```python
 av = 5
@@ -225,15 +182,6 @@ for i in range(1, 6):
     print(i)
 ```
 
-**Output:**
-
-```
-1
-2
-4
-5
-```
-
 #### ✅ Example: Skip Multiples of 3
 
 ```python
@@ -246,9 +194,9 @@ print("bye")
 
 ---
 
-## 🔔 Note: Indentation in Python
+## 🧱 Note: Indentation is Important!
 
-Indentation defines blocks of code. Wrong indentation = Error!
+Python uses **indentation (spaces)** to define blocks. Wrong indent = Error!
 
 ```python
 if True:
@@ -258,19 +206,19 @@ if True:
 
 ---
 
-## Summary Table
+## 📌 Summary Table
 
-| Concept    | Use Case                 |
+| Concept    | What it Does             |
 | ---------- | ------------------------ |
-| if-else    | Make decisions           |
-| for loop   | Loop through sequences   |
-| while loop | Loop based on conditions |
-| break      | Exit the loop early      |
-| continue   | Skip current iteration   |
+| if-else    | Makes decisions          |
+| for loop   | Loops through sequences  |
+| while loop | Loops based on condition |
+| break      | Exits loop early         |
+| continue   | Skips current iteration  |
 
 ---
 
-## Challenge: Prime Number Program
+## 🔍 Prime Number Checker Program
 
 ```python
 num = int(input("Enter a number: "))
@@ -287,3 +235,7 @@ if num > 1:
 else:
     print(num, "is not a prime number")
 ```
+
+---
+
+
