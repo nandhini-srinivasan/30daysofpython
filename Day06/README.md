@@ -119,22 +119,34 @@ For the email `nandhini123@gmail.com`:
 * Extract part before `@` → `"nandhini123"`
 * Use first 4 characters → `"nand"` → Capitalize → `"Nand"`
 * Add 4 random characters (digits + punctuation + uppercase letters)
+* Final password → "Nand$7F@"
 
 ### 💻 Code Example:
 
 ```python
-import random
-import string
+import random  # To generate random values
+import string  # To get letters, digits, and symbols
 
+# Define a function to suggest a strong password based on email
 def suggest_password(email):
-    username = email.split('@')[0]            # 'nandhini123'
-    base = username[:4].capitalize()          # 'Nand'
-    
+    username = email.split('@')[0]  # Take the part before '@' in the email
+    base = username[:4].capitalize()  # Take first 4 letters and capitalize the first letter
+
+    # Combine digits, symbols, and uppercase letters to make the password strong
     extras = string.digits + string.punctuation + string.ascii_uppercase
+
+    # Pick 4 random characters from extras and join them into a string
     random_part = ''.join(random.choice(extras) for _ in range(4))
-    
+
+    # Combine base + random part to make final password
     password = base + random_part
-    return password
+
+    return password  # Return the final password
+
+# Use the function with an example email
+email = "nandhini123@gmail.com"
+print("Suggested Password:", suggest_password(email))  # Print the generated password
+
 
 # Test
 email = "nandhini123@gmail.com"
@@ -152,6 +164,19 @@ Suggested Password: Nand$7G@
 * 🔐 **Strong**: includes symbols, numbers, uppercase
 * 🧠 **Memorable**: uses your name/email
 * 🛠️ **Customizable**: you can change length, characters, etc.
+
+
+## Concepts Used
+
+| Concept                  | Description                                                 |
+| ------------------------ | ----------------------------------------------------------- |
+| `email.split('@')[0]`    | Gets the username part before `@`                           |
+| `[:4].capitalize()`      | Takes the first 4 letters and makes the first one uppercase |
+| `string.digits`          | All numbers from 0–9                                        |
+| `string.punctuation`     | Special characters like `@`, `#`, `$`, etc.                 |
+| `string.ascii_uppercase` | All capital letters from A–Z                                |
+| `random.choice()`        | Picks one random item from a list                           |
+| `''.join(...)`           | Combines items into one string                              |
 
 ---
 
