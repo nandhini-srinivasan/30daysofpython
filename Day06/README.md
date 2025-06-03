@@ -189,3 +189,111 @@ Suggested Password: Nand$7G@
 
 ---
 
+
+
+---
+
+
+
+# commonly used built-in Python modules
+
+To help simplify tasks like file handling, math operations, time management, data parsing, and more.
+
+These modules come pre-installed with Python.
+
+---
+
+## 📦 Top Modules to Know
+
+| Module        | Purpose                                | Example Use Case                              |
+| ------------- | -------------------------------------- | --------------------------------------------- |
+| `math`        | Mathematical functions                 | Square root, rounding, trigonometry           |
+| `random`      | Generate random values                 | Games, OTP/password creation, simulations     |
+| `string`      | Useful string constants                | Letters, digits, punctuation for validation   |
+| `datetime`    | Work with dates and times              | Timestamps, age calculator, countdowns        |
+| `time`        | Control program timing                 | Delays, performance tracking                  |
+| `os`          | Interact with the operating system     | File paths, folder creation, environment vars |
+| `sys`         | System-specific functionality          | Command-line args, script exits               |
+| `csv`         | Read and write CSV files               | Data analysis, file parsing                   |
+| `json`        | Handle JSON data                       | APIs, config files                            |
+| `statistics`  | Basic statistical operations           | Mean, median, mode, standard deviation        |
+| `re`          | Regular expressions (pattern matching) | Email validation, search & replace            |
+| `collections` | Enhanced data structures               | Counters, default dictionaries, namedtuples   |
+
+---
+
+## 🧪 Code Snippets (Examples)
+
+### ✅ `math`
+
+```python
+import math
+print(math.sqrt(25))  # Output: 5.0
+```
+
+### ✅ `random`
+
+```python
+import random
+print(random.randint(1, 10))  # Random number between 1 and 10
+```
+
+### ✅ `string`
+
+```python
+import string
+print(string.ascii_letters)  # abc...XYZ
+```
+
+### ✅ `datetime`
+
+```python
+from datetime import datetime
+print(datetime.now())  # Current date and time
+```
+
+### ✅ `os`
+
+```python
+import os
+print(os.getcwd())  # Current directory
+```
+
+### ✅ `csv`
+
+```python
+import csv
+with open('file.csv') as f:
+    reader = csv.reader(f)
+    for row in reader:
+        print(row)
+```
+
+### ✅ `json`
+
+```python
+import json
+data = '{"name": "Nandhini", "age": 22}'
+parsed = json.loads(data)
+print(parsed["name"])  # Output: Nandhini
+```
+
+### ✅ `statistics`
+
+```python
+import statistics
+print(statistics.mean([10, 20, 30]))  # Output: 20
+```
+
+### ✅ `re`
+
+```python
+import re
+email = "nandhini123@gmail.com"
+if re.match(r"\w+@\w+\.\w+", email):
+    print("Valid email!")
+```
+
+---
+
+
