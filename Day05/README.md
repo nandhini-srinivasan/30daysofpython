@@ -5,6 +5,7 @@
 
 🎯 **Challenge** - Write a function that computes the sum and average of a list of numbers
 
+----
 
 ````markdown
 # 🧠 Python Notes: Functions, Parameters, Return Values & Lambda
