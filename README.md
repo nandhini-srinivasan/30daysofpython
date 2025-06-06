@@ -10,3 +10,4 @@ Documenting 30 day python learning challenge with Indian Data Club
 - ✅ [Day 05 - Functions](./Day05)
 - ✅ [Day 06 - Modules and Packages](./Day06)
 - ✅ [Day 07 - File Handling](./Day07)
+- ✅ [Day 08 - Object-Oriented Programming (Part 1) ](./Day08)
