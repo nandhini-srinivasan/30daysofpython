@@ -1,8 +1,8 @@
 
 
-### ➤ Create a Car class with attributes and a display method
+# 🎯 Challenge Task - Day 08: Object-Oriented Programming (Part 1)
+# Create a Car class with attributes and a display method
 
-```python
 class Car:
     def __init__(self, brand, model, year):
         self.brand = brand
@@ -11,16 +11,12 @@ class Car:
 
     def display(self):
         print(f"Car Info: {self.year} {self.brand} {self.model}")
-```
 
-### ✅ Using the Car class:
 
-```python
+# Creating objects of the Car class
 car1 = Car("Toyota", "Innova", 2020)
 car2 = Car("Tata", "Punch", 2024)
 
-car1.display()  # Car Info: 2020 Toyota Innova
-car2.display()  # Car Info: 2024 Tata Punch
-```
-
----
+# Calling the display method
+car1.display()   # Output: Car Info: 2020 Toyota Innova
+car2.display()   # Output: Car Info: 2024 Tata Punch
