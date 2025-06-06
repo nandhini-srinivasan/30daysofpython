@@ -5,7 +5,7 @@
 ````markdown
 # 🚀 Day 0️⃣8️⃣: Object-Oriented Programming (Part 1)
 
-📅 Date: June 4, 2025
+📅 Date: June 6, 2025
 
 ---
 
